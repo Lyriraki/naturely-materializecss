@@ -14,4 +14,4 @@ This for sample
 
 ![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png)
 
-![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png?raw=true)
+![sample3](https://github.com/Lyriraki/naturely/blob/master/screenshot/s3.png?raw=true)
