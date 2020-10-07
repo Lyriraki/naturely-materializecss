@@ -8,9 +8,10 @@ Inspired from The Net Ninja - Materialize Tutorial
 [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff)
 
 For demo you can check in my instagram in here [Lyriraki](https://www.instagram.com/lyriraki/)
+
 This for sample
-<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s1.png”>
+![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s1.png)
 
-<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png”>
+![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png)
 
-<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png”>
+![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png)
