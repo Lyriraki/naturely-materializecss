@@ -9,8 +9,8 @@ Inspired from The Net Ninja - Materialize Tutorial
 
 For demo you can check in my instagram in here [Lyriraki](https://www.instagram.com/lyriraki/)
 This for sample
-<img src=”screenshot/s1.png”>
+<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s1.png”>
 
-<img src=”screenshot/s2.png”>
+<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png”>
 
-<img src=”screenshot/s3.png”>
+<img src=”https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png”>
