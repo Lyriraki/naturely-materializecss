@@ -10,8 +10,8 @@ Inspired from The Net Ninja - Materialize Tutorial
 For demo you can check in my instagram in here [Lyriraki](https://www.instagram.com/lyriraki/)
 
 This for sample
-![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s1.png)
+![sample](https://github.com/Lyriraki/naturely/blob/master/screenshot/s1.png?raw=true "Sample 1")
 
-![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png)
+![sample](https://github.com/Lyriraki/naturely/blob/master/screenshot/s2.png?raw=true "Sample 2")
 
-![sample3](https://github.com/Lyriraki/naturely/blob/master/screenshot/s3.png?raw=true)
+![sample](https://github.com/Lyriraki/naturely/blob/master/screenshot/s3.png?raw=true "Sample 3")
