@@ -14,5 +14,4 @@ This for sample
 
 ![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s2.png)
 
-![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png)
-![Alt text](https://github.com/Lyriraki/naturely/screenshot/to/s1.png?raw=true "Sample 1")
+![sample](https://github.com/Lyriraki/naturely/tree/master/screenshot/s3.png?raw=true)
