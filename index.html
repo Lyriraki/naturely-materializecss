@@ -1,0 +1,263 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Nature Ly</title>
+    <style>
+        header {
+            background: url(img/header.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4pw;
+        }
+
+        .tabs .indicator {
+            background-color: #1a237e;
+        }
+
+        .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+            background: transparent;
+        }
+
+        a {
+            font-family: cursive;
+        }
+
+        #footer-mobile {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            /* Height of the footer */
+            background: ('.green');
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="index.html" class="brand-logo">Nature Ly</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidenav green lighten-2" id="mobile-menu">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <div id="footer-mobile" class="container center-align">
+                        <div class="row">
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- photo / grid -->
+    <section class="container section" id="photos">
+        <div class="row">
+            <div class="col s12 l4 push-l6 offset-l1">
+                <img src="img/main1.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align">
+                <h2 class="indigo-text text-darken-4">Plants</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias blanditiis quaerat
+                    repudiandae est nesciunt ab.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/main2.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Animals</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias blanditiis quaerat
+                    repudiandae est nesciunt ab.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l6 offset-l1">
+                <img src="img/main3.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align">
+                <h2 class="indigo-text text-darken-4">Garden</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias blanditiis quaerat
+                    repudiandae est nesciunt ab.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/main4.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Nature</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias blanditiis quaerat
+                    repudiandae est nesciunt ab.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/parralax1.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="container section" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">What I do...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus eaque soluta aut, quam fugiat
+                    esse architecto similique laudantium dolorem aperiam, quod magnam hic? Recusandae, quam veniam
+                    cupiditate atque repellendus fugit!</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4">Flora</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Fauna</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-4">Flora</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ex molestias provident eum,
+                        dolor optio aspernatur eveniet perspiciatis necessitatibus perferendis corrupti repudiandae.
+                        Esse
+                        inventore saepe, dignissimos numquam velit quo quam?</p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-4">Fauna</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ex molestias provident eum,
+                        dolor optio aspernatur eveniet perspiciatis necessitatibus perferendis corrupti repudiandae.
+                        Esse
+                        inventore saepe, dignissimos numquam velit quo quam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/parralax2.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- contact form -->
+    <section class="section container" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores tenetur nostrum ratione sequi
+                    maiores, unde ipsam! Animi ratione deserunt eius illo. Itaque cupiditate deleniti quam veritatis
+                    deserunt a quae perspiciatis.</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Contact Me !</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer transparent">
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2020 Lyriraki</div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>

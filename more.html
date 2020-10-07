@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>More info</title>
+    <style>
+        header {
+            background: url(img/header.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4pw;
+        }
+
+        .tabs .indicator {
+            background-color: #1a237e;
+        }
+
+        .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+            background: transparent;
+        }
+
+        a {
+            font-family: cursive;
+        }
+
+        #footer-mobile {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            /* Height of the footer */
+            background: ('.green');
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="index.html" class="brand-logo">Nature Ly</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidenav green lighten-2" id="mobile-menu">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <div id="footer-mobile" class="container center-align">
+                        <div class="row">
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section container">
+        <div class="row">
+            <div class="col s12 l5">
+                <img src="img/icon.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l7 light-green lighten-2">
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h4 class="center-align">Info About This Website</h4>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fas fa-user circle light-blue"></i>
+                        <span class="title">Created By</span>
+                        <p>Lucky Arif Rahman Hakim</p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fas fa-info circle blue darken-1"></i>
+                        <span class="title">Reference</span>
+                        <p>The Net Ninja</p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fas fa-images circle pink lighten-1"></i>
+                        <span class="title">Image From</span>
+                        <p>Pixabay.com</p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fas fa-file-code circle orange"></i>
+                        <span class="title">Made With</span>
+                        <p>HTML, CSS, JavaScript, Jquery, Materialize</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer transparent">
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2020 Lyriraki</div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>

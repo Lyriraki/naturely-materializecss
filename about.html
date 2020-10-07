@@ -1,0 +1,231 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>About</title>
+    <style>
+        header {
+            background: url(img/header.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4pw;
+        }
+
+        .tabs .indicator {
+            background-color: #1a237e;
+        }
+
+        .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+            background: transparent;
+        }
+
+        a {
+            font-family: cursive;
+        }
+
+        #footer-mobile {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            /* Height of the footer */
+            background: ('.green');
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="index.html" class="brand-logo">Nature Ly</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="tooltipped btn-floating btn-small lighten-1"
+                            data-tooltip="This is my Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sidenav green lighten-2" id="mobile-menu">
+                    <li><a href="more.html">More Info</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <div id="footer-mobile" class="container center-align">
+                        <div class="row">
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="" class="btn-floating btn-block lighten-5">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section container">
+        <div class="row">
+            <div class="col s12 l5">
+                <img src="img/header.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l7 light-green lighten-2">
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h4>Lucky Arif Rahman Hakim</h4>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fab fa-twitter circle light-blue"></i>
+                        <span class="title">Lucky</span>
+                        <p>@LuckyArifRH</p>
+                        <a href="#!" class="secondary-content btn light-blue"><i class="material-icons">send</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fab fa-facebook circle blue darken-1"></i>
+                        <span class="title">Lucky Arif</span>
+                        <p>Lucky Arif</p>
+                        <a href="#!" class="secondary-content btn blue darken-1"><i class="material-icons">send</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fab fa-instagram circle pink lighten-1"></i>
+                        <span class="title">Lucky Arif Rahman Hakim</span>
+                        <p>@Lyriraki</p>
+                        <a href="#!" class="secondary-content btn pink lighten-1"><i class="material-icons">send</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="fab fa-blogger circle orange"></i>
+                        <span class="title">Lyriraki</span>
+                        <p>Lyriraki Blogspot</p>
+                        <a href="#!" class="secondary-content btn orange"><i class="material-icons">send</i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="section container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="center-align">My Course</h1>
+            </div>
+            <div class="carousel">
+                <a class="carousel-item" href="#1!"><img src="img/course/course1.png">
+                    <p class="center-align">Belajar Dasar Pemrograman Web</p>
+                </a>
+                <a class="carousel-item" href="#2!"><img src="img/course/course2.png">
+                    <p class="center-align">Belajar Dasar Visualisasi Data</p>
+                </a>
+                <a class="carousel-item" href="#3!"><img src="img/course/course3.png">
+                    <p class="center-align">Belajar Fundamental Aplikasi Android</p>
+                </a>
+                <a class="carousel-item" href="#4!"><img src="img/course/course4.png">
+                    <p class="center-align">Belajar Fundamental Aplikasi iOS</p>
+                </a>
+                <a class="carousel-item" href="#5!"><img src="img/course/course5.png">
+                    <p class="center-align">Belajar Fundamental Front-End Web Development</p>
+                </a>
+                <a class="carousel-item" href="#6!"><img src="img/course/course6.png">
+                    <p class="center-align">Belajar Membuat Aplikasi Android untuk Pemula</p>
+                </a>
+                <a class="carousel-item" href="#7!"><img src="img/course/course7.png">
+                    <p class="center-align">Belajar Membuat Aplikasi iOS untuk Pemula</p>
+                </a>
+                <a class="carousel-item" href="#8!"><img src="img/course/course8.png">
+                    <p class="center-align">Memulai Pemrograman Dengan Dart</p>
+                </a>
+                <a class="carousel-item" href="#9!"><img src="img/course/course9.png">
+                    <p class="center-align">Belajar Membuat Aplikasi Flutter untuk Pemula</p>
+                </a>
+                <a class="carousel-item" href="#10!"><img src="img/course/course10.png">
+                    <p class="center-align">Memulai Pemrograman Dengan Java</p>
+                </a>
+                <a class="carousel-item" href="#11!"><img src="img/course/course11.png">
+                    <p class="center-align">Memulai Pemrograman Dengan Kotlin</p>
+                </a>
+                <a class="carousel-item" href="#12!"><img src="img/course/course12.png">
+                    <p class="center-align">Membangun Progressive Web Apps</p>
+                </a>
+                <a class="carousel-item" href="#13!"><img src="img/course/course13.png">
+                    <p class="center-align">Belajar Prinsip Pemrograman SOLID</p>
+                </a>
+                <a class="carousel-item" href="#14!"><img src="img/course/course14.png">
+                    <p class="center-align">Memulai Pemrograman Dengan Swift</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer transparent">
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2020 Lyriraki</div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>
